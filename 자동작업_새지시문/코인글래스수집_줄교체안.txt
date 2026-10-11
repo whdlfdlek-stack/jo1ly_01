@@ -1,4 +1,4 @@
-대상: 코인글래스 파생 데이터 수집 (trig_01FKiJCR4EzbMfDHmvEPo8S2). 현재 꺼져 있음(컴퓨터 부재), 접속 키가 지시문에 적혀 있어 회장님 결정 전에는 건드리지 않음.
+대상: 코인글래스 파생 데이터 수집 (trig_01JvU3q5A9Ysa4wJyj7EE95e, 켜져 있음). 키는 지시문이 아니라 집 컴퓨터 파일에서 읽는다. 지시문 교체는 wdwd 승인이 필요하다. 옛 꺼진 루틴 trig_01FKiJCR4EzbMfDHmvEPo8S2 는 쓰지 않는다.
 이 루틴은 전문 파일을 만들지 않았다(전문을 새로 쓰면 접속 키가 새 파일에 복사되기 때문). 승인 때는 현재 지시문에서 아래 두 줄만 바꾸고 나머지(키 줄 포함)는 그대로 둔다.
 
 [5번 줄] 바꾸기 전: ... ArtifactData action "batch", url https://claude.ai/artifact/WiiPvu3jQx8bY2BZbJbpcc 로 두 건 쓴다: {op:"set", collection:"deriv", doc_id:"latest", data:결과} 와 {op:"set", collection:"deriv", doc_id:다가오는 정기보고 정시 KST "YYYYMMDDHH"(현재 KST 시각 +10분의 정시), data:결과}.
